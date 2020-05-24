@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    color: #444;
+    background-color: indianred;
+    font-family: 'Roboto', serif;
+    text-align: justify;
+}
+
+nav > p, nav > p > a, i#icono2, span > a {
+    background-color: #444;
+    text-decoration: none;
+    text-align: center; 
+    color: white;
+}
+
+.menu {
+    margin-right: 15px;
+}
+
+nav > p {
+    border-radius: 5px;
+    border: 1px solid #444;
+    padding: 5px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 50px 55px 50px;
+    background-color: white;
+    /*-webkit-box-shadow: 100px 100px 100px 5px #0D0D0D;
+    box-shadow: 100px 100px 100px 5px #0D0D0D;*/
+}
+
+header > h1 {
+    padding-top: 20px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header > h1 > a, #icono {
+    background-color: white;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+.color:hover h1 {
+    background-color: crimson;
+}
+
+.color:hover a {
+    background-color: crimson; 
+}
+
+.color:hover #icono {
+    background-color: crimson;
+}
+
+.menu:hover #icono2 {
+    background-color: crimson; 
+}
+
+.menu:hover .enlaceM {
+    background-color: crimson; 
+}
+
+div > p {
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+#index2 {
+    margin-top: 25px;
+}
+
+footer > p, footer > p > em, footer > p > em > a {
+    background-color: white;
+    text-align: center;
+    border-top: dotted;
+    padding-top: 15px;
+}
+
+footer > p > em > a {
+    text-decoration: none;
+    border-top-color: #444;
+    color: crimson;
+}
+
+div > img {
+    width: 40%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #444;
+    border-radius: 5px;
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -o-transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+ol, li, strong, em {
+    background-color: white;
+    list-style: lower-roman;
+    margin-left: 20px;
+}
+
+li {
+    margin: 5px;
+}
+
+table, tbody, tr, th, td {
+    background-color: white;
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+    caption-side: bottom;
+}
+
+th, td, tr {
+    border: 5px solid crimson;
+    text-align: center;
+    padding: 25px;
+}
+
+.colorT, .colorT > strong {
+    background-color: crimson;
+    color: white;
+}
+
+table > caption {
+    margin-top: 2em;
+    background-color: white;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 70%
+}
+
+form, form > div, form > div > span, form > div > label, form > div > input, option, #select, textarea {
+    background-color: white;
+}
+
+form > div > label {
+    width: 200px;
+    display: block;
+    float: left;
+    text-align: right;
+    /*margin-right: 10px;*/
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    /*margin-left: -130px;*/
+    margin-right: 45px;
+}
+
+form > div > label::after {
+     content: ":";
+}
+       
+#textArea {
+    padding-top: 30px;
+    
+}
+
+#textArea > textarea {
+    border: 1px solid #444;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+
+form > .norm > input {
+    width: 700px;
+    height: 0;
+    padding: 20px;
+    /*font-size: 16px;*/
+    border: none;
+    border-bottom: 1px solid #444;
+    /*border-radius: 5px; Tipo de borde que redondea */
+    margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: -20px;
+}
+
+.envio > input {
+    width: 120px;
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    color: #444;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 5px 5px #0F0F0F;
+    box-shadow: 5px 5px 5px 5px #0F0F0F;
+}
+
+#opciones {
+    border: 1px solid #444;
+    background-color: white;
+    width: 750px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+
+form > .norm > label {
+    margin-left: 1px;
+}
+
+
